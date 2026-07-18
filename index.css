@@ -1,0 +1,569 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+.logo span {
+  color: black;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #d32f2f;
+}
+
+.blood {
+  color: #b71c1c;
+}
+
+.btn {
+  background: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #b71c1c;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 50px;
+  background: #fff5f5;
+  flex-wrap: wrap;
+}
+
+.div1 {
+  max-width: 500px;
+  font-size: 25px
+}
+
+.tagline {
+  color: #d32f2f;
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin: 10px 0;
+}
+
+.hero h1 span {
+  color: #d32f2f;
+}
+
+.description {
+  margin: 15px 0;
+  color: #555;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.primary-btn {
+  background: #d32f2f;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  border: 2px solid #d32f2f;
+  color: #d32f2f;
+  background: transparent;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.image1 img {
+  width: 600px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.image1:hover {
+  transform: scale(1.05);
+  /* filter: brightness(1.0); */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+
+}
+
+.key {
+  text-align: center;
+  margin-top: 50px;
+  color: #b71c1c;
+  font-size: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 40px;
+  gap: 20px;
+  background: white;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(197, 78, 78);
+}
+
+.card i {
+  font-size: 30px;
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  padding: 25px 40px;
+  border-radius: 15px;
+  width: 90%;
+  margin: 20px auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.register i {
+  font-size: 32px;
+  color: #e60023;
+}
+
+.register h2 {
+  margin: 0;
+  color: #e60023;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.register p {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  gap: 10px;
+  background: #fff5f5;
+}
+
+.image img {
+  width: 500px;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.tag {
+  color: red;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+.content h1 {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.content h1 span {
+  color: rgb(230, 82, 82);
+}
+
+.para {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.points {
+  list-style: none;
+  padding: 0;
+}
+
+.points li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+.points i{
+  color: #ff4d4d;
+}
+
+.eligibility {
+  padding: 60px 40px;
+  background: #fff;
+  text-align: center;
+}
+
+.eligibility h2 {
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+.sub-text {
+  color: #555;
+  margin-bottom: 30px;
+}
+.eligibility-container {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+
+}
+
+.eligibility-card {
+  background: #fff5f5;
+  padding: 15px;
+  width: 300px;
+  border-radius: 12px;
+  margin-top: 40px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.eligibility-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.eligibility-card i {
+  font-size: 28px;
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+.image3 img {
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+}
+
+.stories {
+  padding: 60px 40px;
+  text-align: center;
+  background: #fff;
+}
+
+.stories h2 {
+  color: #d32f2f;
+}
+
+.sub-text {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
+
+.story-card {
+  width: 450px;
+  height: 250px;
+  background: #fff5f5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.story-card img {
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+}
+
+.blood {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel:hover .carousel-track {
+  animation-play-state: paused;
+}
+
+.donor-card {
+  background-color: #d32f2f;
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.first {
+  display: flex;
+  gap: 10px;
+}
+
+.image4 img {
+  height: 80px;
+  border-radius: 20px;
+}
+
+.donor-card h2 {
+  font-size: 20px;
+}
+
+.donor-card p {
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+button {
+  background: white;
+  margin-top: 15px;
+  color: red;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #fff5f5;
+  color: rgb(12, 11, 11);
+  padding: 40px 60px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-col h2 {
+  color: #ff4d4d;
+}
+
+.footer-col h3 {
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 8px 0;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #1a1515;
+  transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #ff4d4d;
+}
+
+.footer-col p {
+  margin: 8px 0;
+  color: #5f3d3d;
+}
+@media (max-width: 768px) {
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+  .buttons{
+     justify-content: center;   /* centers horizontally */
+    align-items: center;
+    flex-wrap: wrap;  
+  }
+  .btn {
+    display: none;
+  }
+
+  .section1 {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .div1 {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .image1 img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .section2 {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .section4 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .eligibility-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .eligibility-card {
+    width: 90%;
+  }
+
+  .image3 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .story-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .donor-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .first {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+}
